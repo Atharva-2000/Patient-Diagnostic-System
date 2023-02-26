@@ -1,0 +1,92 @@
+#doctorappointmentlist {
+
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gen_sec_head {
+
+    height: 10vh;
+    width: 35%;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    /* text-shadow:3.3px 2.5px 6px rgba(215, 156, 79, 0.886); */
+    text-shadow: 3.3px 2.5px 6px #888888;
+    box-shadow: 1px 2.5px 19px 8px #888888;
+    padding: 7px;
+}
+
+#appointtabs{
+
+    font-size: 20px;
+}
+
+#appointment_mid_sec {
+
+    /* margin: auto; */
+    /* margin-top: 7%; */
+    margin-top: 2%;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+
+#appoint_mid_sec_date h4 span {
+
+    color: purple
+}
+
+
+.search_bar {
+
+    width: 35%;
+}
+
+.search_bar input {
+
+    width: 75%;
+    height: 30px;
+}
+
+
+.search_bar button {
+
+    width: 25%;
+    border-color: grey;
+    height: 30px;
+}
+
+
+#appointmentlisttables {
+
+    /* margin: auto; */
+    /* width: 75%; */
+    width: 100%;
+    /* margin-top: 6%; */
+    margin-top: 3%;
+    margin-bottom: 4%;
+    border: 0.5px solid lightslategray;
+    /* box-shadow: 1px 2.5px 19px 7px #888888; */
+
+    box-shadow: 0.3px 1.5px 10px 6px #4140408d;
+
+}
+
+
+.to_align_text_in_center {
+
+    text-align: center;
+}
+
+.action_button {
+
+    margin-right: 15%;
+}

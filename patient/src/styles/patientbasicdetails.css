@@ -1,0 +1,48 @@
+
+#patient_basic_details{
+
+    border: 1.5px solid red;
+    border-radius: 15px;
+    width: 60%;
+}
+
+#patient_user_icon{
+
+    margin-top: 2%;
+}
+
+#patient_user_icon img{
+
+    height: 10vh;
+}
+
+#basic_patient_details{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.basic_patient_details_col h5{
+ 
+    color: brown;
+
+}
+
+.basic_patient_details_col h5 span{
+
+    color: green;
+}
+
+
+
+@media screen and (max-width:700px) {
+    
+    #basic_patient_details{
+
+        flex-direction: column;
+    }
+}
+
+

@@ -1,0 +1,70 @@
+#viewappoint {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-section-view {
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(rgba(77, 102, 215, 0.509), rgba(77, 102, 215, 0.578)), url('https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.jpg?s=612x612&w=0&k=20&c=DWZGM8lBb5Bun7cbxhKT1ruVxRC_itvFzA9jxgoA0N8=');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100vw 55vh;
+    color: rgb(172, 255, 47);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#top-section-view h3 {
+
+    font-size: 33px;
+    margin-bottom: 55px;
+}
+
+
+#myappointments {
+
+    width: 100%;
+    height: 45vh;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gen_sec_head {
+
+    height: 10vh;
+    width: 50%;
+    border-radius: 25px;
+    color: brown;
+    text-align: center;
+    text-shadow: 3.3px 2.5px 6px rgba(215, 156, 79, 0.886);
+    box-shadow: 1px 2.5px 19px 8px #888888;
+    padding: 7px;
+}
+
+
+#myappointments table {
+
+    width: 90%;
+    margin: auto;
+    margin-top: 6%;
+    box-shadow: 1px 2.5px 19px 7px #888888;
+}
+
+
+#myappointments h3 {
+
+    margin-top: 3%;
+}
+
+.to_align_text_in_center {
+
+    text-align: center;
+}

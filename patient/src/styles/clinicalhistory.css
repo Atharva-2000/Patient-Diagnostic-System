@@ -1,0 +1,114 @@
+
+#clinichistory{
+
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.gen_sec_head{
+
+    height: 10vh;
+    width: 45%;
+    border-radius: 25px;
+    color: brown;
+    text-align: center;
+    text-shadow:3.3px 2.5px 6px rgba(215, 156, 79, 0.886);
+    box-shadow: 1px 2.5px 19px 5px #888888;
+    padding: 7px;
+}
+
+#historyform{
+
+    margin-top: 6%;
+   /* box-shadow: 1px 5px 18px 9px #888888;*/
+    box-shadow: 0.5px 3px 20px 6px #a8a7a7bb;
+    width: 55%;
+    margin-bottom: 5%;
+}
+
+#historyform h3{
+
+    text-align: center;
+    color: purple;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+
+#historyform form{
+
+    display: flex;
+    flex-direction: column;
+} 
+
+.history_individual_field{
+
+    margin-left: 13%;
+    margin-bottom: 5%;
+}
+
+.individual_field_yes_no{
+    
+    margin-left: 4%;
+    display: flex;
+}
+
+.individual_field_yes_no_options{
+
+    margin-right: 7%;
+}
+
+.individual_field_yes_no_options label{
+
+    font-size: 18px;
+}
+
+.multiple_fields{
+    
+    margin-left: 4%;
+    display: flex;
+}
+
+.multiple_fields_col{
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 7%;
+}
+
+#medprob{
+   
+    margin-left: 4%;
+    width: 80%;
+    height: 100px;
+
+}
+
+#allergy{
+
+    margin-left: 4%;
+    width: 80%;
+
+}
+
+#historysubmit{
+
+    margin-bottom: 7%;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:700px) {
+    
+    .multiple_fields{
+
+        flex-direction: column;
+    }
+}

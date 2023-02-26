@@ -1,0 +1,51 @@
+.doctorprofilepage {
+
+    /* background: linear-gradient(to right,rgb(51, 51, 172),rgb(167, 45, 167)); */
+    background: linear-gradient(to bottom right, rgba(45, 9, 93, 0.9), rgba(151, 19, 129, 0.8));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#doctorcontent {
+
+    width: 37%;
+    height: 50%;
+    background-color: whitesmoke;
+    border-radius: 13px;
+    margin-top: 2%;
+    /* box-shadow: 0px 1px 7px 6px #aeb932c5;*/
+    box-shadow: 0px 1px 7px 6px rgb(225, 183, 105);
+}
+
+
+#doctorcontent img {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    margin-top: 3%;
+    margin-bottom: 6%;
+    background: none;
+}
+
+.doctorcontent-field {
+
+    margin-left: 21%;
+    /* margin-left: 14%; */
+    margin-bottom: 2%;
+}
+
+
+
+.doctorcontent-field h5 {
+
+    color: green;
+}
+
+.doctorcontent-field h5 span {
+
+    color: brown;
+}

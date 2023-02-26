@@ -1,0 +1,206 @@
+.patientlogmaindiv{
+  /*  margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.sectiondiv{
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    border: 1.3px solid red;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px 6px rgb(210, 134, 134);
+}
+
+
+.top_link img {
+    width: 28px;
+    padding-right: 7px;
+    margin-top: -3px;
+}
+
+/* .top_link a {
+    color: purple;
+} */
+
+
+.rethomelink{
+
+    color: purple;
+}
+
+.top_link{
+    margin-bottom: 15%;
+}
+
+
+.imgBx{
+    
+    border-radius: 15px;
+
+    background-image: url("../assets//medicineimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position : relative;
+    width : 50%;
+    height: 100%;
+    filter: blur(1px);
+    /* background: linear-gradient(225deg, #e91e63, #03a9f4);
+    z-index: 1;
+    mix-blend-mode: screen; */
+}
+
+.contentBx{
+
+    display: flex;
+    width : 50%;
+    height: 100%;
+    justify-content: center;
+    align-items : center;
+
+}
+
+.formBx{
+
+    width: 50%;
+
+}
+
+.formBx h2{
+
+    color: #607d8b;
+    font-weight : 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.inputBx{
+
+   margin-bottom: 20px;
+
+}
+
+
+.inputBx span{
+     
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+   /* color : #607db8;*/
+   color: rgb(41, 121, 41);
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+.inputBx input{
+
+     width : 100%;
+     padding: 10px 20px;
+     outline: none;
+     font-weight: 400;
+     font-size: 16px;
+     border: 1px solid #607d8b;
+     letter-spacing: 1px;
+     color:#607d8b;
+     background: transparent;
+     border-radius: 30px; 
+}
+
+.inputBx input[type="text"]:focus{
+
+    border-color: orangered;
+    border-width: 1.5px;
+    color: purple;
+    
+}
+
+.inputBx input[type="password"]:focus{
+
+    border-color: orangered;
+    border-width: 1.5px;
+    color: purple;
+}
+
+.inputBx input[type="submit"]
+{
+    background: #ff4584;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.inputBx input[type="submit"]:hover{
+
+    opacity: 0.9;
+}
+
+.inputBx p{
+
+    color: #607d8b
+}
+
+.inputBx p a{
+     color: #ff4584
+}
+
+
+@media(max-width : 768px)
+{
+    .imgBx{
+        position: absolute;
+        top: 0;
+        left : 0;
+        width : 100%;
+        height : 100%;
+    }
+
+    .contentBx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .formBx{
+        width : 100%;
+        padding: 40px;
+        background: rgb(255 255 255 / 0.9);
+        margin: 50px;
+    }
+
+
+
+
+}
+
+
+.error_msg{
+
+    color : red;
+}
+
+
+
+
+
+
+
+

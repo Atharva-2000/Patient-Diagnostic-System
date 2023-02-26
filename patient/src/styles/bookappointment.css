@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+#bookappoint{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top-section-book{
+
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(rgba(66, 76, 108, 0.3),rgba(66, 76, 108, 0.3)),url('https://media.istockphoto.com/id/1174589889/photo/doctor-is-writing-the-appointment-letter-to-the-patient-at-the-clinic.jpg?s=612x612&w=0&k=20&c=Wq0d8VBCtWVQk3ZmXfZKHax6buHnR0ds9_zjmWdKoY8=');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size:100vw 83vh; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#top-section-book p{
+
+    color: white;
+    font-size: 22px;
+}
+
+#top-section-book h2{
+    
+    font-size: 33px;
+    margin-bottom: 65px;
+}
+
+
+#dateselection{
+
+    width: 60%;
+    height: 50vh;
+    background-color: rgba(135, 207, 235, 0.201);
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    box-shadow: 1px 3px 20px 5px #888888;
+    /* border: 0.2px solid rgba(135, 207, 235, 0.557); */
+    
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#dateselection h1{
+
+    color: purple;
+    text-align: center;
+    margin-top: 3%;
+    text-shadow:3.2px 2.5px 6px violet;
+
+}
+
+#dateselection form{
+
+    margin-top: 5%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.datefield{
+
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10%;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+
+.datefield:focus{
+
+    outline-color: orangered;
+    color: rgb(73, 15, 15);
+}
+
+#datesubmitbutton{
+
+    width : 75%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    border-color: green;
+    background-color: rgb(68, 212, 68);
+    color : white;
+    cursor: pointer;
+    box-shadow: 0.3px 2px 4px 2px #888888e6;
+}
+
+#datesubmitbutton:hover{
+
+    transform: scale(1.01); 
+    transition: 0.5s ease-in-out;
+    box-shadow: 0.3px 2px 5px 3px #888888ec;
+    color: yellow;
+}
+
+#timeslotselection{
+
+    width: 70%;
+    background-color: whitesmoke;
+    margin: auto; 
+    margin-top: 7%;
+    margin-bottom: 2%;
+    box-shadow: 1px 2.5px 20px 7px #888888;
+    border-radius: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#timeslotselection h1{
+
+    color: brown;
+    text-align: center;
+    margin-top: 3%;
+    text-shadow:3.2px 2.5px 6px rgba(215, 156, 79, 0.886);
+}
+
+
+#timeslotselection table{
+
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+
+}
+
+/*#timeslotselection table tr{
+
+    border: 2px solid black;
+}
+
+#timeslotselection table tr td{
+
+    border-right: 2px solid black;
+    font-weight: 640;
+    font-size: 20px;
+}*/
+
+.to_align_text_in_center{
+
+    text-align: center;
+}
+
+
+
+

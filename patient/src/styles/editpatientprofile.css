@@ -1,0 +1,99 @@
+.editpatientprofilepage{
+
+  /* background: linear-gradient(to bottom right, red, yellow); */
+  background: linear-gradient(to bottom right, rgba(45, 9, 93, 0.9),rgba(151, 19, 129, 0.8));
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 2250px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#editdetails{
+
+    background-color: whitesmoke;
+    width: 80%;
+    height: 96%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#editdetails h1{
+     
+    color: green;
+    margin-top: 10px;
+}
+
+.editinfo{
+
+    border: 2px solid brown;
+    border-radius: 15px;
+    height: 93%;
+    width : 90%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    
+}
+
+
+.editentry{
+
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
+
+.editentry label{
+    
+    height: 70px;
+    margin-top: 5%;
+}
+
+.editentry input{
+
+     width: 70%;
+}
+
+.editentry span{
+
+    color : red;
+}
+
+
+.editentry:nth-child(9){
+
+    justify-content: space-around;
+}
+
+.editentry:nth-child(10) input{
+
+    width: 43%;
+}
+
+
+
+.btn-primary{
+
+    width : 80%;
+    margin-top: 8%;
+}
+
+
+
+@media screen and (max-width:700px) {
+  
+        .editentry label{
+
+             margin-top: 10%;
+        }
+
+        .editentry:nth-child(9) input{
+
+            width: 33%;
+        }
+}

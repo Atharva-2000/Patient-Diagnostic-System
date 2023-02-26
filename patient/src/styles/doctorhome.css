@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+#doctor_home{
+    width: 100%;
+    height: 83vh;
+    background-image: url('../assets/patienthomebackground.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0%;
+   }
+
+   #doctor_home main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   }
+   
+   #right-sect{
+    /*padding-right: 70px;*/
+    /* padding-top: 25px; */
+   }
+   
+   #left-sect{
+    padding-left: 50px;
+
+    margin-top: 1.5%;
+  
+    /*margin-top: 10%;*/
+    
+   }
+
+
+   #left-sect h3{
+
+       font-size: 40px;
+       font-family: 'Alfa Slab One', cursive;
+       text-transform: capitalize;
+       margin-bottom: 100px;
+   }
+   
+   
+   #left-sect h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin: 15px 0; */
+    margin-top: 120px;
+    margin-bottom: 40px;
+   }
+   
+   
+   #left-sect button{
+    padding: 12px 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    /* background-image: linear-gradient(to right,#649bff,#0070fa,#649bff); */
+    background-image: linear-gradient(to right,#81a6eb,#0070fa,#86a8e6);
+    border-radius: 10px;
+   }
+
+   #left-sect button:hover{
+
+      color: rgb(228, 228, 119);
+      transition: 0.3s ease-in-out;
+      transform: scale(1.018);
+
+   }
+
+
+   #mydocimage{
+       
+        /* width: 45vw; */
+        width : 60vw;
+        height: 70vh;
+   }
+

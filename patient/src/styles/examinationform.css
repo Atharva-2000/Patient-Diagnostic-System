@@ -1,0 +1,83 @@
+#examination_form{
+
+    box-shadow: 0.5px 2px 14px 5px #a8a7a7bb;
+    width: 70%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+}
+
+#examination_form h3{
+  
+    text-align: center;
+    color: purple;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+
+}
+
+
+#examination_form form{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chekup_individual_field{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 14%; 
+    margin-bottom: 5%;
+}
+
+.chekup_individual_field h5{
+  
+    text-align: justify;
+ 
+}
+
+.chekup_individual_field input{
+
+    width : 85%;
+    outline: none;
+}
+
+.chekup_individual_field input:focus{
+
+    border-color: orangered;
+}
+
+
+
+
+.chekup_individual_field textarea{
+
+    width : 85%;
+    height: 15vh;
+    outline: none;
+}
+
+.chekup_individual_field textarea:focus{
+
+   border-color: orangered;
+
+}
+
+
+
+#chekupsubmit{
+
+    margin-bottom: 4%;
+    width: 40%;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#chekupsubmit:hover{
+
+    opacity: 0.85;
+}
+

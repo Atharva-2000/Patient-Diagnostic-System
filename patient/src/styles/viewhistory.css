@@ -1,0 +1,46 @@
+
+#viewhistory{
+
+    width : 100%;
+    /* margin-top: 5%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.gen_sec_head{
+
+    height: 10vh;
+    width: 50%;
+    border-radius: 25px;
+    color: black;
+    text-align: center;
+    text-shadow:3.3px 2.5px 6px rgba(215, 156, 79, 0.886);
+    box-shadow: 1px 2.5px 18px 7px #888888;
+    padding: 7px;
+}
+
+
+#viewhistory table{
+
+    width: 90%;
+    margin: auto;
+    /* margin-top: 6%; */
+    margin-bottom: 4%;
+    border: 0.5px solid lightslategray;
+    box-shadow: 0.5px 2.3px 15px 6px #888888; 
+
+}
+
+
+.to_align_text_in_center{
+
+    text-align: center;
+}
+
+
+
+
+
